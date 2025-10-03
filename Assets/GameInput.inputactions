@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "GameInput",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "85fa7615-186b-47bc-93b3-9359d05dbcc4",
+            "actions": [
+                {
+                    "name": "ToggleWalls",
+                    "type": "Button",
+                    "id": "807e8f99-1b4e-4dbb-bc5d-5a39e7fecc66",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dd1d53e1-5638-408a-b656-badbc8ac156b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleWalls",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
